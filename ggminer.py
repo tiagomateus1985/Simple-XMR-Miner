@@ -46,6 +46,6 @@ if __name__ == '__main__':
 	if options.debug: 
 		Utils.DEBUG = True
 
-	miner = Miner('stratum+tcp://xmr-eu1.nanopool.org:14444', '45MuwhzBk17cGJEgaHWrzQYcZKsktapJLHwZWkNwLea5LNyFMzGcoRqNpNf6vrhgpYK8JVxgmngXHURWTDNH7NwN4c6reJE', 'x')
+	miner = Miner('stratum+tcp://xmr-eu1.nanopool.org:14444', '45MuwhzBk17cGJEgaHWrzQYcZKsktapJLHwZWkNwLea5LNyFMzGcoRqNpNf6vrhgpYK8JVxgmngXHURWTDNH7NwN4c6reJE', 'x', 'cryptonight')
 	miner.serve_forever()
 	
