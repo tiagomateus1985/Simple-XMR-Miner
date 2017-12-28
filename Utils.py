@@ -1,5 +1,5 @@
 import time
-from ggminer import *
+from app import *
 
 LEVEL_PROTOCOL  = 'protocol'
 LEVEL_INFO      = 'info'
